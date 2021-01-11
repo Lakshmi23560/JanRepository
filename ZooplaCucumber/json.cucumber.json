@@ -1,0 +1,116 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6821408500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Stepdefinition.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "checking house prices",
+        "description": "",
+        "id": "zoopla-application-to-check-prices-for-a-place;checking-house-prices;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 63488300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Stepdefinition.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1584200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Login to Zoopla application is launched for \"test2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test2",
+                  "offset": 45
+                }
+              ],
+              "location": "CheckPricesStepdef2.login_to_Zoopla_application_is_launched_for(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4220758200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click on house prices",
+            "match": {
+              "location": "CheckPricesStepdef2.click_on_house_prices()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3208271100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter place name \"London Road, Addington, West Malling ME19\" in search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "London Road, Addington, West Malling ME19",
+                  "offset": 18
+                }
+              ],
+              "location": "CheckPricesStepdef2.enter_place_name_in_search_box(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "place with price is displayed.",
+            "match": {
+              "location": "CheckPricesStepdef2.place_with_price_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Functional"
+          }
+        ]
+      }
+    ],
+    "name": "Zoopla Application to check prices for a place",
+    "description": "",
+    "id": "zoopla-application-to-check-prices-for-a-place",
+    "keyword": "Feature",
+    "uri": "TestCase2.feature"
+  }
+]

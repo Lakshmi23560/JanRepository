@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="14.315526">
+<testcase classname="Zoopla Application to check prices for a place" name="checking house prices" time="14.315526">
+<system-out><![CDATA[Given Login to Zoopla application is launched for "test2"...................passed
+When click on house prices..................................................passed
+And Enter place name "London Road, Addington, West Malling ME19" in search box.passed
+Then place with price is displayed..........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
